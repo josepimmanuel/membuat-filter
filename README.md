@@ -53,11 +53,11 @@ Buat dua buah `Plane` object.
 ![](dua-plane.png)  
 Rename kedua plane.  
 ![](rename-plane.png)  
-Rename nullObject0 jadi Kartu.
-![](rename-null.png)
-Dan pindahkan plane Kiri dan Kanan ke dalam Kartu.
-![](kartu-kiri.png)
-Nanti di simulasi akan muncul planenya (dalam kotak bersemut).
+Rename nullObject0 jadi Kartu.  
+![](rename-null.png)  
+Dan pindahkan plane Kiri dan Kanan ke dalam Kartu.  
+![](kartu-kiri.png)  
+Nanti di simulasi akan muncul planenya (dalam kotak bersemut).  
 ![](plane-semut.png)  
 Kemudian kita perlu atur posisi dari plane Kiri dan Kanan agar tidak menumpuk di tengah.
 Untuk plane `Kiri` kita beri `-0,06` dan `0,1` di 2 axis pertama `Position`.
