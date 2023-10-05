@@ -50,7 +50,7 @@ Lakukan hal yang sama untuk material `Kanan`, sampai kurang lebih jadi seperti d
 ![](null-object.png)
 Buat dua buah `Plane` object.
 ![](add-plane.png)
-![](dua-plane.png)
+![](dua-plane.png)  
 Rename kedua plane.  
 ![](rename-plane.png)  
 Rename nullObject0 jadi Kartu.
