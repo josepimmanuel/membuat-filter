@@ -60,15 +60,15 @@ Dan pindahkan plane Kiri dan Kanan ke dalam Kartu.
 Nanti di simulasi akan muncul planenya (dalam kotak bersemut).  
 ![](plane-semut.png)  
 Kemudian kita perlu atur posisi dari plane Kiri dan Kanan agar tidak menumpuk di tengah.
-Untuk plane `Kiri` kita beri `-0,06` dan `0,1` di 2 axis pertama `Position`.
-![](kiri-position.png)
-Untuk plane `Kanan` kita beri `0,06` dan `0,1` di 2 axis pertama `Position`.
-![](kanan-position.png)
+Untuk plane `Kiri` kita beri `-0,06` dan `0,1` di 2 axis pertama `Position`.  
+![](kiri-position.png)  
+Untuk plane `Kanan` kita beri `0,06` dan `0,1` di 2 axis pertama `Position`.  
+![](kanan-position.png)  
 Maka simulasi akan seperti ini.  
 ![](simulasi-plane.png)  
-Tinggal kita kasih materialnya kepada plane Kiri dan juga Kanan.
-![](plane-kiri-mat.png)
-![](plane-kanan-mat.png)
+Tinggal kita kasih materialnya kepada plane Kiri dan juga Kanan.  
+![](plane-kiri-mat.png)  
+![](plane-kanan-mat.png)  
 Nanti di simulasi, animasinya tidak akan berhenti (loop), mengulang seluruh aset gambar kita.  
 ![](simulasi-plane-ok.png)  
 Agar berhenti, kita pilih kedua `animation sequence` kita, kemudian di property `Current Frame`, kita klik, nanti kedua current frame Kiri dan Kanan akan masuk ke `Patch Editor`.
@@ -81,12 +81,12 @@ Nanti akan tercipta faceTracker0.
 Kemudian drag faceTracker0 ke `Patch Editor`, nanti akan tercipta kurang lebih seperti di bawah.
 ![](face-patcheditor.png)
 Kemudian kita perlu add patch untuk handle event `face lean`, yaitu `Head Rotation`.
-![](head-rotation.png)
-Maka akan tercipta patch head rotation.
-![](head-rotation-tercipta.png)
-Disini kita perlu sambungkan kiri head rotation kepada face tracker.
-![](face-ke-head.png)
-Kemudian kita misalnya ingin memberikan efek zoom kepada pilihan kiri pada saat kita nyender ke kiri, begitupun dengan kasus kanan. 
+![](head-rotation.png)  
+Maka akan tercipta patch head rotation.  
+![](head-rotation-tercipta.png)  
+Disini kita perlu sambungkan kiri head rotation kepada face tracker.  
+![](face-ke-head.png)  
+Kemudian kita misalnya ingin memberikan efek zoom kepada pilihan kiri pada saat kita nyender ke kiri, begitupun dengan kasus kanan.  
 
 Berikut untuk yang kiri, dimana kita perlu nambah patch `If Then Else`, mengganti menjadi `vector 3` dan beri `1,2` di setiap axis thennya dan `1` di setiap axis elsenya.
 
