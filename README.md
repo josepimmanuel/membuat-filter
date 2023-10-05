@@ -29,7 +29,7 @@ Kita akan membuat filter dimana kita nanti bisa memilih pilihan (makanan yang ki
 6. Buat `animation sequence` untuk pilihan kiri dan juga kanan.
 ![](animation-seq.png)
 Kemudian masukkan namanya `Kiri`.
-![](kiri.png)
+![](kiri.png)  
 Di window property dari `Kiri`, kita pilih `Texture -- Choose File`, kemudian pilih ketiga png kiri kita dari 1-3.
 ![](animation-choose.png)
 Kemudian nanti akan tercipta Texture `kiri[1-3]`
