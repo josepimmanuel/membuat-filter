@@ -39,8 +39,8 @@ Ulangi prosesnya untuk `animation sequence` yang `Kanan`, sampai jadi kurang leb
 
 7. Buat `material` untuk pilihan kiri dan juga kanan.
 ![](material-buat.png)
-Beri nama `Kiri`.
-![](material-kiri.png)
+Beri nama `Kiri`.  
+![](material-kiri.png)  
 Di property material kiri, kita set `Shader Type` jadi `Flat` dan pilih `Texture` nya ke animation sequence Kiri.
 ![](material-shader.png)
 Lakukan hal yang sama untuk material `Kanan`, sampai kurang lebih jadi seperti di bawah.
