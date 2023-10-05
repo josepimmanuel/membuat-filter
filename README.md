@@ -34,7 +34,7 @@ Di window property dari `Kiri`, kita pilih `Texture -- Choose File`, kemudian pi
 ![](animation-choose.png)
 Kemudian nanti akan tercipta Texture `kiri[1-3]`
 ![](animation-kiri.png)  
-Ulangi prosesnya untuk `animation sequence` yang `Kanan`, sampai jadi kurang lebih seperti di bawah.
+Ulangi prosesnya untuk `animation sequence` yang `Kanan`, sampai jadi kurang lebih seperti di bawah.  
 ![](animation-kanan.png)
 
 7. Buat `material` untuk pilihan kiri dan juga kanan.
