@@ -72,12 +72,12 @@ Tinggal kita kasih materialnya kepada plane Kiri dan juga Kanan.
 Nanti di simulasi, animasinya tidak akan berhenti (loop), mengulang seluruh aset gambar kita.  
 ![](simulasi-plane-ok.png)  
 Agar berhenti, kita pilih kedua `animation sequence` kita, kemudian di property `Current Frame`, kita klik, nanti kedua current frame Kiri dan Kanan akan masuk ke `Patch Editor`.
-![](animation-stop.png)
+![](animation-stop.png)  
 
 9. Berikutnya kita siapkan `Face Tracker`, add new object face tracker di Scene.
-![](add-facetracker.png)
-Nanti akan tercipta faceTracker0.
-![](facetracker-tercipta.png)
+![](add-facetracker.png)  
+Nanti akan tercipta faceTracker0.  
+![](facetracker-tercipta.png)  
 Kemudian drag faceTracker0 ke `Patch Editor`, nanti akan tercipta kurang lebih seperti di bawah.
 ![](face-patcheditor.png)
 Kemudian kita perlu add patch untuk handle event `face lean`, yaitu `Head Rotation`.
