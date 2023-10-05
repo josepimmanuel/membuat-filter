@@ -33,7 +33,7 @@ Kemudian masukkan namanya `Kiri`.
 Di window property dari `Kiri`, kita pilih `Texture -- Choose File`, kemudian pilih ketiga png kiri kita dari 1-3.
 ![](animation-choose.png)
 Kemudian nanti akan tercipta Texture `kiri[1-3]`
-![](animation-kiri.png)
+![](animation-kiri.png)  
 Ulangi prosesnya untuk `animation sequence` yang `Kanan`, sampai jadi kurang lebih seperti di bawah.
 ![](animation-kanan.png)
 
